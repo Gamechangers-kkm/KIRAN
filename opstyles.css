@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Banner */
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-size: 32px;
+    color: #ffcc00;
+    margin: 20px 0;
+}
+
+/* Episodes List */
+.episodes-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Episode */
+.episode {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #292929;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Episode Thumbnail */
+.episode-thumbnail {
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.episode-thumbnail:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Episode Info */
+.episode-info h2 {
+    color: #ffcc00;
+}
+
+.episode-info p {
+    color: #ccc;
+}
+
+/* Hidden Video */
+.hidden {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Back Button */
+.back {
+    text-align: center;
+    margin: 20px;
+}
+
+.back a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 18px;
+    border: 2px solid #ffcc00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back a:hover {
+    background-color: #ffcc00;
+    color: black;
+}

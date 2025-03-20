@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Episodes</title>
+    <link rel="stylesheet" href="opstyles.css">
+</head>
+<body class="onepiece-page">
+
+    <!-- Header -->
+    <header class="banner">
+        <img src="images/onepiece-banner.jpg" alt="One Piece Banner">
+    </header>
+
+    <h1 class="page-title">One Piece Episodes</h1>
+
+    <!-- Episodes List -->
+    <div class="episodes-container">
+        <!-- Episode 1 -->
+        <div class="episode">
+            <img src="images/ep1-thumbnail.jpg" alt="Episode 1" class="episode-thumbnail" onclick="playVideo('ep1-video')">
+            <div class="episode-info">
+                <h2>Episode 1: Romance Dawn</h2>
+                <p>Luffy sets out on his journey to become the Pirate King!</p>
+            </div>
+            <video id="ep1-video" class="hidden" controls>
+                <source src="videos/ep1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Episode 2 -->
+        <div class="episode">
+            <img src="images/ep2-thumbnail.jpg" alt="Episode 2" class="episode-thumbnail" onclick="playVideo('ep2-video')">
+            <div class="episode-info">
+                <h2>Episode 2: The Great Swordsman Appears</h2>
+                <p>Luffy meets Roronoa Zoro, a powerful swordsman!</p>
+            </div>
+            <video id="ep2-video" class="hidden" controls>
+                <source src="videos/ep2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Add more episodes here -->
+    </div>
+
+    <div class="back">
+        <a href="index.html">← Back to Home</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
